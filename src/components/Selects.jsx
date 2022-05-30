@@ -9,7 +9,7 @@ import SelectsCard from './SelectsCard'
 
 const Selects = () => {
   return (
-    <div className='max-w-[1240px] mx-auto py-32 px-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-3'>
+    <div id='view' className='max-w-[1240px] mx-auto py-24 px-4 grid sm:grid-cols-2 lg:grid-cols-3 gap-3'>
       <SelectsCard bg={BoraBora} text="Bora Bora" />
       <SelectsCard bg={BoraBora2} text="Maldevis" />
       <SelectsCard bg={Maldives} text="Antigua" />

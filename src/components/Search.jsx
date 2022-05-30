@@ -4,7 +4,7 @@ import { MdOutlineTravelExplore } from "react-icons/md";
 
 const Search = () => {
   return (
-    <div className="max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-3 px-4 py-32">
+    <div id="travel" className="max-w-[1240px] mx-auto grid lg:grid-cols-3 gap-3 px-4 py-24">
       <div className="lg:col-span-2 flex flex-col justify-evenly">
         <div className="">
           <h2>LUXURY INCLUDED VACATIONS FOR 2 PEOPLE</h2>
@@ -47,7 +47,7 @@ const Search = () => {
         </div>
       </div>
 
-      <div className="w-8/12 lg:w-full mx-auto lg:mx-0 mt-10 lg:mt-0">
+      <div id="book" className="w-8/12 lg:w-full mx-auto lg:mx-0 mt-10 lg:mt-0">
           <div className="border border-blue-200 text-center p-4 rounded-tl-3xl rounded-br-3xl">
               <p className="mt-2">GET AN ADDITIONAL 10% OFF</p>
               <p className="py-2">12 HOURS LEFT</p>
