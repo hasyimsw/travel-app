@@ -12,7 +12,7 @@ const Destinations = () => {
       className="max-w-[1240px] mx-auto text-center py-24 px-4"
     >
       <h1 className="text-slate-800">All-Inclusive Resorts</h1>
-      <p className="text-slate-600 py-2">On the Caribbean's Best Beaches</p>
+      <p className="text-slate-600 py-2">On the Indonesia Best Beaches</p>
       <div className="grid grid-rows-none md:grid-cols-5 py-4 gap-2 md:gap-4">
         <img
           className="rounded-sm object-cover h-full w-full col-span-2 md:col-span-3 row-span-2"

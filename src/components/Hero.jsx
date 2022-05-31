@@ -15,7 +15,7 @@ const Hero = () => {
       <div className="absolute w-full h-full left-0 top-0 bg-gray-900/40"></div>
       <div className="absolute top-0 w-full h-full flex flex-col justify-center text-center text-white p-4">
         <h1>First Class Travel</h1>
-        <h2 className="py-4">Top 1% Location Worldwide</h2>
+        <h2 className="py-4">Beautiful beaches in Indonesia</h2>
         <form action="" className="flex justify-between px-2 py-1 items-center max-w-3xl w-full mx-auto border rounded-md text-slate-800 bg-slate-200">
           <div>
             <input type="text" placeholder="Search Destinations" className="bg-transparent focus:outline-none font-[Poppins]" />
