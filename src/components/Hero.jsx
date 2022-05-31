@@ -4,7 +4,7 @@ import { BiSearch } from 'react-icons/bi'
 
 const Hero = () => {
   return (
-    <div id="#home" className="w-full h-screen relative">
+    <div className="w-full h-screen relative">
       <video
         className="w-full h-full object-cover"
         src={beachVid}

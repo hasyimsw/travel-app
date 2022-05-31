@@ -23,7 +23,7 @@ html {
   }
 
   li {
-    @apply p-4 text-lg hover:text-blue-700 cursor-pointer;
+    @apply p-4 text-lg hover:text-blue-700 duration-700;
   }
 
   h1 {

@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { BsPerson } from "react-icons/bs";
 import { BiSearch } from "react-icons/bi";
-import { FaFacebook, FaTwitter, FaInstagram, FaYoutube } from "react-icons/fa";
+import { FaFacebook, FaTwitter, FaInstagram, FaYoutube, FaPinterest } from "react-icons/fa";
 import { AiOutlineClose } from "react-icons/ai";
 
 const Navbar = () => {
@@ -15,7 +15,7 @@ const Navbar = () => {
   return (
     <div className="flex w-full justify-between items-center h-20 z-10 text-white absolute px-4">
       <div>
-        <h1 onClick={handleNav} className={logo ? "hidden" : "block"}>
+        <h1>
           BEACHES.
         </h1>
       </div>
@@ -98,6 +98,7 @@ const Navbar = () => {
             <FaTwitter className="icon" />
             <FaInstagram className="icon" />
             <FaYoutube className="icon" />
+            <FaPinterest className="icon" />
           </div>
         </ul>
       </div>

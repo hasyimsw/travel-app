@@ -17,6 +17,9 @@ const sliderData = [
   {
     url: "https://images.unsplash.com/photo-1624935851312-845758a99160?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2071&q=80",
   },
+  {
+    url: "https://images.unsplash.com/photo-1541233055021-849443736842?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
+  },
 ];
 
 const Carousel = () => {
@@ -31,7 +34,7 @@ const Carousel = () => {
   };
 
   return (
-    <div className="max-w-[1240px] mx-auto py-32 px-4">
+    <div className="max-w-4xl mx-auto py-32 px-4">
       <div className="relative">
         <BsArrowLeftSquareFill
           onClick={prevSlide}
@@ -42,7 +45,10 @@ const Carousel = () => {
           className="absolute top-[50%] text-3xl text-white cursor-pointer right-5"
         />
         {sliderData.map((item, index) => (
-          <div key={index} className={index === slide ? "opacity-100" : "opacity-0"}>
+          <div
+            key={index}
+            className={index === slide ? "opacity-100" : "opacity-0"}
+          >
             {index === slide && (
               <img
                 className="w-full rounded-md shadow-md"
